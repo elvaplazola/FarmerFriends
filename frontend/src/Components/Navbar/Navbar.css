@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  padding: 17px;
+  padding: 16px;
   box-shadow: 0 1px 3px -2px green;
 }
 
@@ -14,16 +14,16 @@
 .nav_logo p {
   color: green;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 55px;
+  gap: 50px;
   color: green;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -33,21 +33,21 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  gap: 4px;
+  gap: 3px;
 }
 
 .nav-menu hr {
   border: none;
-  height: 4px;
-  width: 85%;
+  height: 3px;
+  width: 80%;
   background: lightskyblue;
-  border-radius: 11px;
+  border-radius: 10px;
 }
 
 .nav-login-cart {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 45px;
 }
 
 .nav-login-cart button:active {
@@ -55,16 +55,16 @@
 }
 
 .nav-login-cart button {
-  height: 60px;
-  width: 160px;
+  height: 50px;
+  width: 150px;
   outline: none;
   border: 1px solid lightgray;
   border-radius: 70px;
-  font-weight: 550;
+  font-weight: 600;
   background: lightgray;
   cursor: pointer;
   color: green;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .nav-cart-count {
@@ -74,7 +74,7 @@
   height: 22px;
   width: 22px;
   margin-top: -35px;
-  margin-left: 55px;
+  margin-left: -55px;
   border-radius: 11px;
   font-size: 14px;
   color: gainsboro;
