@@ -1,10 +1,10 @@
 import React from "react";
 import "./Hero.css";
-import hand from "../Assets/handy.png";
+//import hand from "../Assets/handy.png";
 import basket from "../Assets/basket3.png";
 import arrow from "../Assets/arrow.png";
 //import cow from "../Assets/cow.jpg";
-import cow2 from "../Assets/cow2.jpg";
+import cow2 from "../Assets/cow3.jpg";
 
 const Hero = () => {
   return (
