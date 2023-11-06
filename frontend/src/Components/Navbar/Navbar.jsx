@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Assets/logo2.png";
 import cart_icon from "../Assets/cart_icon.png";
@@ -17,33 +18,49 @@ const Navbar = () => {
             setMenu("shop");
           }}
         >
-          Shop{menu === "shop" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/">
+            Shop
+          </Link>
+          {menu === "shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("livestock");
           }}
         >
-          Livestock{menu === "livestock" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/livestock">
+            Livestock
+          </Link>
+          {menu === "livestock" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("produce");
           }}
         >
-          Produce{menu === "produce" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/produce">
+            Produce
+          </Link>
+          {menu === "produce" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("supplies");
           }}
         >
-          Supplies{menu === "supplies" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/supplies">
+            Supplies
+          </Link>
+          {menu === "supplies" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
-        <img src={cart_icon} alt="cart icon" />
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/cart">
+          <img src={cart_icon} alt="cart icon" />
+        </Link>
         <div className="nav-cart-count">0</div>
       </div>
     </div>
