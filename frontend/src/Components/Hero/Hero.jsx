@@ -1,18 +1,22 @@
 import React from "react";
 import "./Hero.css";
 import hand from "../Assets/handy.png";
+import basket from "../Assets/basket.jpg";
 import arrow from "../Assets/arrow.png";
-import cow from "../Assets/cow.jpg";
+//import cow from "../Assets/cow.jpg";
+import cow2 from "../Assets/cow2.jpg";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <h2>New Items for Trade</h2>
+        <h2>New Items for Trade!</h2>
         <div>
           <div className="hand-hand-icon">
-            <p>new</p>
-            <img src={hand} alt="" />
+            <p>
+              Fresh!
+              <img src={basket} alt="" />
+            </p>
           </div>
           <p>Trading Inventory</p>
           <p>for Farmers</p>
@@ -23,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img src={cow} alt="" />
+        <img src={cow2} alt="" />
       </div>
     </div>
   );
