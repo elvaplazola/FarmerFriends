@@ -10,6 +10,13 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
+        <div className="mantra">
+          <p>
+            A hub for farmers to trade and advertise their farm-fresh goods with
+            other farms. Seasonal fruits and veggies. Get in touch with your
+            farming community!
+          </p>
+        </div>
         <h2>New Items for Trade!</h2>
         <div>
           <div className="hand-hand-icon">

@@ -57,3 +57,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.mantra p {
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: red;
+}
