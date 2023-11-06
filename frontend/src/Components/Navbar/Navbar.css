@@ -22,7 +22,7 @@
   align-items: center;
   list-style: none;
   gap: 50px;
-  color: green;
+  color: red;
   font-size: 20px;
   font-weight: 600;
 }
@@ -40,7 +40,7 @@
   border: none;
   height: 3px;
   width: 80%;
-  background: lightskyblue;
+  background: green;
   border-radius: 10px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .nav-login-cart button:active {
-  background: yellowgreen;
+  background: red;
 }
 
 .nav-login-cart button {
@@ -63,8 +63,9 @@
   font-weight: 600;
   background: lightgray;
   cursor: pointer;
-  color: green;
+  color: red;
   font-size: 22px;
+  font-family: cursive;
 }
 
 .nav-cart-count {
