@@ -14,7 +14,7 @@
 .nav_logo p {
   color: red;
   font-size: 38px;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 .nav-menu {
@@ -22,8 +22,8 @@
   align-items: center;
   list-style: none;
   gap: 50px;
-  color: red;
-  font-size: 25px;
+  color: rgb(231, 30, 30);
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -38,9 +38,9 @@
 
 .nav-menu hr {
   border: none;
-  height: 3px;
+  height: 10px;
   width: 80%;
-  background: green;
+  background: rgb(160, 3, 6);
   border-radius: 10px;
 }
 
