@@ -1,4 +1,6 @@
 import "./App.css";
+import {useState, useEffect} from 'react'
+//import Axios from 'axios'
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ShopCategory from "./Pages/ShopCategory";
@@ -12,6 +14,14 @@ import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
+  const [serverData, setServerData] = useState([{}])
+
+  useEffect(() => {
+   fetch('/api')
+   .then(response => response.json())
+   .then(data => {setServerData(data)})
+  }, [])
+  
   return (
     <div>
       <BrowserRouter>
