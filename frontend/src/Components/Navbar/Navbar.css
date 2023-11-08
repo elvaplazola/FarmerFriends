@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px red;
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.nav_logo p {
+  color: red;
+  font-size: 38px;
+  font-weight: 650;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: yellow;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 3px;
+}
+
+.nav-menu hr {
+  border: none;
+  height: 10px;
+  width: 80%;
+  background: rgb(3, 160, 89);
+  border-radius: 10px;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button:active {
+  background: lightpink;
+}
+
+.nav-login-cart button {
+  height: 50px;
+  width: 150px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 70px;
+  font-weight: 600;
+  background: lightgray;
+  cursor: pointer;
+  color: red;
+  font-size: 22px;
+  font-family: cursive;
+}
+
+.nav-cart-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  width: 22px;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  color: gainsboro;
+  background: greenyellow;
+}
+
+a:any-link {
+  color: red;
+}
