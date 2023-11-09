@@ -4,7 +4,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-app.get('/getPost', (req, res) => {
+app.get('/getPost', (req, res)=>{
     res.send('Hello World!')
 })
 
