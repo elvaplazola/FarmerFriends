@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./CartItems.css";
 import { ShopContext } from "../../Context/ShopContext";
 import cross from "../Assets/cross.png";
-import all_product from "../Assets/all_product";
+//import all_product from "../Assets/all_product";
 
 const CartItems = () => {
   const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
@@ -66,14 +66,20 @@ const CartItems = () => {
           <button>Click to Checkout</button>
         </div>
         <div className="cartitems-promocode">
-          <p>Promocode if any</p>
+          <p>Promocode if any:</p>
           <div className="cartitems-promobox">
             <input type="text" placeholder="promo code" />
             <button>Submit</button>
           </div>
         </div>
       </div>
-      {/*
+    </div>
+  );
+};
+
+export default CartItems;
+
+/*
     <div>
       <div className="cartitems-format">
         <img src="" alt="" className="carticon-product-icon" />
@@ -84,9 +90,4 @@ const CartItems = () => {
         <img src={cross} onClick={() => {removeFromCart()}} alt="" />
 </div> 
 <hr /> 
-</div> */}
-    </div>
-  );
-};
-
-export default CartItems;
+</div> */

@@ -8,6 +8,42 @@
   margin: 100px 171px;
 }
 
+.cartitems-promobox {
+  background: rgb(247, 246, 244);
+  width: 505px;
+  margin-top: 16px;
+  padding-left: 21px;
+  height: 60px;
+}
+
+.cartitems-promobox button {
+  cursor: pointer;
+  color: rgb(232, 226, 226);
+  background: rgb(23, 4, 4);
+  width: 171px;
+  height: 60px;
+  font-size: 17px;
+}
+
+.cartitems-promobox input {
+  height: 51px;
+  width: 332px;
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.cartitems-promocode {
+  flex: 1;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.cartitems-promocode p {
+  color: #891c1c;
+}
+
 .cartitems-format-main {
   font-weight: 650;
   font-size: 19px;
