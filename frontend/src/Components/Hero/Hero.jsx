@@ -5,12 +5,14 @@ import basket from "../Assets/basket3.png";
 import arrow from "../Assets/arrow.png";
 //import cow from "../Assets/cow.jpg";
 import cow2 from "../Assets/cow3.jpg";
+import SearchBar from "../Searchbox/SearchBar";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
         <div className="mantra">
+          <SearchBar />;
           <p>
             A hub for farmers to trade and advertise their farm-fresh goods with
             other farms. Seasonal fruits and veggies. Get in touch with your
@@ -33,6 +35,7 @@ const Hero = () => {
           <img src={arrow} alt="" />
         </div>
       </div>
+
       <div className="hero-right">
         <img src={cow2} alt="" />
       </div>
