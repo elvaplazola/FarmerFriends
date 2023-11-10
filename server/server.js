@@ -1,10 +1,16 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const produceController = require ('./controllers/produce_controller');
+
+const app = express();
+app.use('/', produceController);
 
 app.get('/api', (req, res) =>{
     res.json({
         "produce": ["apple", "pear", "grapes"]
-    })
-})
+    });
+});
 
-app.listen('8000', () => console.log('PORT at 8000'))
+const PORT = 8000; // backend routing port
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}.`);
+});
