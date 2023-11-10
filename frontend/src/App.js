@@ -1,4 +1,6 @@
 import "./App.css";
+import {useState, useEffect} from 'react'
+//import Axios from 'axios'
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ShopCategory from "./Pages/ShopCategory";
@@ -16,7 +18,7 @@ import Footer from "./Components/Footer/Footer";
 //import { SearchResultsList } from "./Components/Searchbox/SearchResultsList";
 
 function App() {
-  //const [results, setResults] = useState([]);
+
   return (
     <div>
       <BrowserRouter>
