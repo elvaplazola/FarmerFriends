@@ -8,7 +8,9 @@ import { ShopContext } from "../../Context/ShopContext";
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   const { getTotalCartItems } = useContext(ShopContext);
-
+  const handleMenuClick = (menuName) => {
+    setMenu(menuName);
+  };
   return (
     <div className="navbar">
       <div className="nav-logo">
