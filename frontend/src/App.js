@@ -12,6 +12,7 @@ import livestock_banner from "./Components/Assets/livestock_banner.png";
 import produce_banner from "./Components/Assets/produce_banner.jpg";
 import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
+import Login from "./Pages/Login";
 
 //import { useState } from "react";
 //import { SearchBar } from "./Components/Searchbox/SearchBar";
@@ -46,7 +47,9 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart" element={<Cart />} />
-          <Route path="/login" element={<LoginSignup />} />
+
+          <Route path="/loginSignup" element={<LoginSignup />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </BrowserRouter>
