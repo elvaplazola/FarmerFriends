@@ -12,7 +12,7 @@ const Hero = () => {
     <div className="hero">
       <div className="hero-left">
         <div className="mantra">
-          <SearchBar />;
+          <SearchBar />
           <p>
             A hub for farmers to trade and advertise their farm-fresh goods with
             other farms. Seasonal fruits and veggies. Get in touch with your
