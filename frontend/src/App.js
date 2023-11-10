@@ -11,7 +11,12 @@ import produce_banner from "./Components/Assets/produce_banner.jpg";
 import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
 
+//import { useState } from "react";
+//import { SearchBar } from "./Components/Searchbox/SearchBar";
+//import { SearchResultsList } from "./Components/Searchbox/SearchResultsList";
+
 function App() {
+  //const [results, setResults] = useState([]);
   return (
     <div>
       <BrowserRouter>
@@ -44,6 +49,15 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      {/*
+      <div className="searchbar">
+        <div className="search-bar-container">
+          <SearchBar setResults={setResults} />
+          {results && results.length > 0 && (
+            <SearchResultsList results={results} />
+          )}
+          </div> 
+      </div> */}
     </div>
   );
 }

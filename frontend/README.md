@@ -1,5 +1,7 @@
 ## Notes
 
+https://www.freecodecamp.org/news/build-a-search-filter-using-react-and-react-hooks/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

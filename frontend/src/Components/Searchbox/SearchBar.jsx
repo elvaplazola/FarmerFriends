@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import all_product from "../Assets/all_product";
+import all_prod from "../Assets/all_prod.json";
 
 import "./SearchBar.css";
 
@@ -8,16 +8,11 @@ export const SearchBar = ({ setResults }) => {
   const [input, setInput] = useState("");
 
   const fetchData = (value) => {
-    fetch({ all_product }) //Backend URL go here!
+    fetch({ all_prod }) //Backend URL go here!
       .then((response) => response.json())
       .then((json) => {
-        const results = json.filter((user) => {
-          return (
-            value &&
-            user &&
-            user.name &&
-            user.name.toLowerCase().includes(value)
-          );
+        const results = json.filter((name, category) => {
+          return value && name && category;
         });
         setResults(results);
       });
