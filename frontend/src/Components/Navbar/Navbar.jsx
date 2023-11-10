@@ -58,9 +58,20 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <Link to="/login">
-          <button>Login</button>
-        </Link>
+        {localStorage.getItem("auth-token") ? ( //Should change to 'logout' when user log's-in after implemented on backend express.
+          <button
+            onClick={() => {
+              localStorage.removeItem("auth-token");
+              window.location.replace("/");
+            }}
+          >
+            Logout
+          </button>
+        ) : (
+          <Link to="/login" style={{ textDecoration: "none" }}>
+            <button>Login</button>
+          </Link>
+        )}
         <Link to="/loginSignup">
           <button>Register</button>
         </Link>
