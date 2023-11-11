@@ -1,0 +1,40 @@
+.descriptionbox {
+  margin: 120px 170px;
+}
+
+.descriptionbox-navigator {
+  display: flex;
+}
+
+.descriptionbox-nav-box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 650;
+  font-size: 17px;
+  height: 71px;
+  width: 172px;
+  border: 1px solid red;
+}
+
+.descriptionbox-nav-box-fade {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 650;
+  font-size: 17px;
+  height: 71px;
+  width: 172px;
+  border: 1px solid red;
+  color: black;
+  background: rgb(156, 167, 178);
+}
+
+.descriptionbox-description {
+  display: flex;
+  gap: 26px;
+  border: 1px solid red;
+  padding: 48px;
+  padding-bottom: 71px;
+  flex-direction: column;
+}

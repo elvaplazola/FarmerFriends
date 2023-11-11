@@ -4,12 +4,14 @@ import Popular from "../Components/Popular/Popular";
 import Offers from "../Components/Offers/Offers";
 import NewCollections from "../Components/NewCollections/NewCollections";
 import NewsLetter from "../Components/NewsLetter/NewsLetter";
+//import SearchBar from "../Components/Searchbox/SearchBar";
 
 const Shop = () => {
   return (
     <div>
       <Hero />
       <Popular />
+
       <Offers />
       <NewCollections />
       <NewsLetter />
