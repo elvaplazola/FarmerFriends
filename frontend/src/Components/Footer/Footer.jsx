@@ -13,21 +13,51 @@ const Footer = () => {
         <p>Farmer Friend</p>
       </div>
       <ul className="footer-links">
-        <li>Company</li>
+        <a
+          href="https://github.com/elvaplazola/FarmerFriends/tree/main"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li>Company</li>
+        </a>
         <li>Merchandise</li>
         <li>Services</li>
         <li>About</li>
-        <li>Contact</li>
+        <a
+          href="https://digitalskills.unlv.edu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li>Contact</li>
+        </a>
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <img src={instaLogo} alt="" />
+          <a
+            href="https://www.instagram.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src={instaLogo} alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={pinLogo} alt="" />
+          <a
+            href="https://www.pinterest.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={pinLogo} alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={whatsapp} alt="" />
+          <a
+            href="https://www.whatsapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={whatsapp} alt="" />
+          </a>
         </div>
       </div>
       <div className="footer-copyright">

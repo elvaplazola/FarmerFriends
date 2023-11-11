@@ -1,16 +1,9 @@
-import p1_img from "./product_1.jpg";
+import p29_img from "./product_29.jpg";
 import p2_img from "./product_2.jpg";
-import p3_img from "./product_3.jpg";
-import p4_img from "./product_4.jpg";
+import p16_img from "./product_16.jpg";
+import p21_img from "./product_21.jpg";
 
 let data_product = [
-  {
-    id: 1,
-    name: "Moo-moo Cow",
-    image: p1_img,
-    new_price: 5000.0,
-    old_price: 8000.0,
-  },
   {
     id: 2,
     name: "Plump Pig",
@@ -19,18 +12,28 @@ let data_product = [
     old_price: 9200.0,
   },
   {
-    id: 3,
-    name: "Loud Goat",
-    image: p3_img,
-    new_price: 600.0,
-    old_price: 1000.0,
+    id: 29,
+    name: "Weed Wacker",
+    category: "supplies",
+    image: p29_img,
+    new_price: 230.0,
+    old_price: 275.5,
   },
   {
-    id: 4,
-    name: "Large Bison",
-    image: p4_img,
-    new_price: 50000.0,
-    old_price: 75000.0,
+    id: 16,
+    name: "Banana",
+    category: "produce",
+    image: p16_img,
+    new_price: 12.0,
+    old_price: 13.5,
+  },
+  {
+    id: 21,
+    name: "Melon",
+    category: "produce",
+    image: p21_img,
+    new_price: 7.0,
+    old_price: 10.5,
   },
 ];
 
