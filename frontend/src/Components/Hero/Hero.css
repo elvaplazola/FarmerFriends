@@ -3,6 +3,7 @@
   background: linear-gradient(180deg, pink, rgb(234, 225, 225) 60%);
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .hero-left {
@@ -34,7 +35,7 @@
 }
 
 .hero-hand-icon img {
-  width: 100px;
+  width: 60%;
 }
 
 .hero-latest-btn {
@@ -63,3 +64,4 @@
   font-size: 30px;
   color: red;
 }
+
