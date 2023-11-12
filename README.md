@@ -11,8 +11,9 @@ Repository on Github: https://github.com/elvaplazola/FarmerFriends/tree/main
 ## Requirements
 
 node.js
+axios
 
-\*frontend
+frontend
 cd into frontend
 run 'npm i -y'
 then 'npm start'
@@ -37,9 +38,11 @@ learned througout the bootcamp.
 
 React references: https://scrimba.com/allcourses?topic=react
 
+Authentication in React: codingdeft.com - https://www.codingdeft.com/posts/react-authentication-mern-node-passport-express-mongo/
+
 Coding With Muhib: https://www.youtube.com/@CodingWithMuhib
 
-Website Setup Tutorial: Codr Kai - https://www.youtube.com/watch?v=3isCTSUdXaQ
+Website Setup: Codr Kai - https://www.youtube.com/watch?v=3isCTSUdXaQ
 
 # Coders
 

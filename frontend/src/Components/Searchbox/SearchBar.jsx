@@ -1,41 +1,35 @@
-import { useState } from "react";
-import { FaSearch } from "react-icons/fa";
-import all_prod from "../Assets/all_prod.json"; //placeholder
-
+import React, { useState } from "react";
 import "./SearchBar.css";
+import { FaSearch } from "react-icons/fa";
+//import data from "../Assets/all_prod.json";
 
-export const SearchBar = ({ setResults }) => {
-  const [input, setInput] = useState("");
+const SearchBar = ({ data }) => {
+  const [searchTerm, setSearchTerm] = useState("");
 
-  const fetchData = (value) => {
-    fetch("{ all_prod }") //placeholder
-      .then((response) => response.json())
-      .then((json) => {
-        const results = json.filter((user) => {
-          return (
-            value &&
-            user &&
-            user.name &&
-            user.name.toLowerCase().includes(value)
-          );
-        });
-        setResults(results);
-      });
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
   };
 
-  const handleChange = (value) => {
-    setInput(value);
-    fetchData(value);
-  };
+  const filteredData = data.filter((item) =>
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="input-wrapper">
       <FaSearch id="search-icon" />
       <input
-        placeholder="Type to search..."
-        value={input}
-        onChange={(e) => handleChange(e.target.value)}
+        type="text"
+        placeholder="Search by name on farmer friend..."
+        value={searchTerm}
+        onChange={handleChange}
       />
+      {searchTerm ? (
+        <ul>
+          {filteredData.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+      ) : null}
     </div>
   );
 };

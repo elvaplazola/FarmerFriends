@@ -65,7 +65,7 @@ const Navbar = () => {
               window.location.replace("/");
             }}
           >
-            Logout
+            Logoff
           </button>
         ) : (
           <Link to="/login" style={{ textDecoration: "none" }}>
