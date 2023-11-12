@@ -29,14 +29,7 @@ const SearchBar = ({ data }) => {
         <ul>
           {filteredData.map((props, item, i) => (
             <Link to={`/product/${props.id}`}>
-              <Item
-                key={i}
-                id={item.id}
-                name={item.name}
-                image={item.image}
-                new_price={item.new_price}
-                old_price={item.old_price}
-              />
+              <Item key={i} id={item.id} name={item.name} />
               <p>{props.name}</p>
             </Link>
           ))}
