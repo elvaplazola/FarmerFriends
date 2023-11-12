@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
 import { FaSearch } from "react-icons/fa";
+import Item from "../Item/Item";
+import { Link } from "react-router-dom";
 //import data from "../Assets/all_prod.json";
 
 const SearchBar = ({ data }) => {
@@ -25,8 +27,18 @@ const SearchBar = ({ data }) => {
       />
       {searchTerm ? (
         <ul>
-          {filteredData.map((item) => (
-            <li key={item.id}>{item.name}</li>
+          {filteredData.map((props, item, i) => (
+            <Link to={`/product/${props.id}`}>
+              <Item
+                key={i}
+                id={item.id}
+                name={item.name}
+                image={item.image}
+                new_price={item.new_price}
+                old_price={item.old_price}
+              />
+              <p>{props.name}</p>
+            </Link>
           ))}
         </ul>
       ) : null}
