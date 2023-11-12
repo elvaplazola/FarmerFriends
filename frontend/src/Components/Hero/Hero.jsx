@@ -9,7 +9,7 @@ import SearchBar from "../Searchbox/SearchBar";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" class="container-fluid">
       <div className="hero-left">
         <div className="mantra">
           <SearchBar />
@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-right">
-        <img src={cow2} alt="" />
+        <img src={cow2} alt="" class="img-fluid" />
       </div>
     </div>
   );

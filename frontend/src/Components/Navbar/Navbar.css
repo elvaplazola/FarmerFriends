@@ -86,12 +86,7 @@
 a:any-link {
   color: red;
 }
-@media (max-width: 768px) {
-  .nav-menu {
-    flex-direction: column;
-  }
 
   .nav-menu.active {
     display: block;
   }
-}
