@@ -6,13 +6,14 @@ import arrow from "../Assets/arrow.png";
 //import cow from "../Assets/cow.jpg";
 import cow2 from "../Assets/cow3.jpg";
 import SearchBar from "../Searchbox/SearchBar";
+import data from "../Assets/all_prod.json";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
         <div className="mantra">
-          <SearchBar />
+          <SearchBar data={data} />
           <p>
             A hub for farmers to trade and advertise their farm-fresh goods with
             other farms. Seasonal fruits and veggies. Get in touch with your
