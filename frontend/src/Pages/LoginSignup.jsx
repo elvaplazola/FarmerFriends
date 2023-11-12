@@ -13,10 +13,7 @@ const LoginSignup = () => {
         </div>
         <button>Proceed</button>
         <p className="loginsignup-login">
-          Join us!{" "}
-          <span>
-            <a href="/Login">Login here!</a>
-          </span>
+          Join us! <span>Login here!</span>
         </p>
         <div className="loginsignup-agree">
           <input type="checkbox" name="" id="" />

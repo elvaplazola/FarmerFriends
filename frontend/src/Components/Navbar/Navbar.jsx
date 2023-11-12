@@ -72,9 +72,10 @@ const Navbar = () => {
             <button>Login</button>
           </Link>
         )}
+        {/*
         <Link to="/loginSignup">
           <button>Register</button>
-        </Link>
+        </Link> */}
         <Link to="/cart">
           <img src={cart_icon} alt="cart icon" />
         </Link>

@@ -12,17 +12,13 @@ import livestock_banner from "./Components/Assets/livestock_banner.png";
 import produce_banner from "./Components/Assets/produce_banner.jpg";
 import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
-import Login from "./Pages/Login";
-
-//import { useState } from "react";
-//import { SearchBar } from "./Components/Searchbox/SearchBar";
-//import { SearchResultsList } from "./Components/Searchbox/SearchResultsList";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route
@@ -48,20 +44,10 @@ function App() {
           </Route>
           <Route path="/cart" element={<Cart />} />
 
-          <Route path="/loginSignup" element={<LoginSignup />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<LoginSignup />} />
         </Routes>
         <Footer />
       </BrowserRouter>
-      {/*
-      <div className="searchbar">
-        <div className="search-bar-container">
-          <SearchBar setResults={setResults} />
-          {results && results.length > 0 && (
-            <SearchResultsList results={results} />
-          )}
-          </div> 
-      </div> */}
     </div>
   );
 }
