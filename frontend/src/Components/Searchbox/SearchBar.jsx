@@ -8,7 +8,7 @@ export const SearchBar = ({ setResults }) => {
   const [input, setInput] = useState("");
 
   const fetchData = (value) => {
-    fetch({ all_prod }) //placeholder
+    fetch("{ all_prod }") //placeholder
       .then((response) => response.json())
       .then((json) => {
         const results = json.filter((user) => {
