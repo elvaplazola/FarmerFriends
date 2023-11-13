@@ -4,6 +4,7 @@ import footerLogo from "../Assets/logo_big.jpg";
 import instaLogo from "../Assets/instagram_icon.png";
 import pinLogo from "../Assets/pinterest.png";
 import whatsapp from "../Assets/whatsapp.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,7 +21,10 @@ const Footer = () => {
         >
           <li>Company</li>
         </a>
-        <li>Merchandise</li>
+        <Link to="/admin">
+          <li>Add Product</li>
+        </Link>
+
         <li>Services</li>
         <li>About</li>
         <a
@@ -31,6 +35,7 @@ const Footer = () => {
           <li>Contact</li>
         </a>
       </ul>
+
       <div className="footer-social-icon">
         <div className="footer-icons-container">
           <a
@@ -62,7 +67,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <hr />
-        <p>Milestone 3 by Group 3 @ 2023</p>
+        <p>Milestone 3 by Team Farmer Friend for Digital Skills@UNLV 2023</p>
       </div>
     </div>
   );
