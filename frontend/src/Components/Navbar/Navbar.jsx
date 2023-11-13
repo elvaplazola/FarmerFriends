@@ -12,7 +12,7 @@ const Navbar = () => {
     setMenu(menuName);
   };
   return (
-    <div className="navbar" class="container-fluid" id="navbar">
+    <div className="navbar" id="navbar">
       <div className="nav-logo">
         <img src={logo} alt="farmer friends logo" />
         {/*<p>Farmer</p> */}

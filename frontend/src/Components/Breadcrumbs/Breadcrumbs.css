@@ -8,8 +8,10 @@
   text-transform: capitalize;
   margin: 61px 171px;
 }
-@media screen (min-width:425px) and (max-width:1200px) {
+@media screen and (min-width: 425px) and (max-width:1200px) {
   .root{
-    width:100%
-  }
+    width:90%;
+    padding: 10%;
+    flex-flow:column wrap;
+   }
 }

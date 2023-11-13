@@ -9,7 +9,7 @@ import SearchBar from "../Searchbox/SearchBar";
 
 const Hero = () => {
   return (
-    <div className="hero" class="container-fluid">
+    <div className="hero">
       <div className="hero-left">
         <div className="mantra">
           <SearchBar />
