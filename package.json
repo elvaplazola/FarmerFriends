@@ -1,0 +1,27 @@
+{
+  "name": "farmerfriends",
+  "version": "1.0.0",
+  "description": "cd into frontend\r run 'npm i -y'\r then 'npm start'",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvaplazola/FarmerFriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvaplazola/FarmerFriends/issues"
+  },
+  "homepage": "https://github.com/elvaplazola/FarmerFriends#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
