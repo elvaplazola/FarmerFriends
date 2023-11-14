@@ -19,7 +19,7 @@ const AddProduct = () => {
     let formData = new FormData();
     formData.append("product", image);
 
-    await fetch("http://localhost:8000/upload", {
+    await fetch("http://localhost:4000/upload", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -108,7 +108,7 @@ const AddProduct = () => {
         >
           <option value="livestock">Livestock</option>
           <option value="produce">Produce</option>
-          <option value="supply">Supply</option>
+          <option value="supplies">Supplies</option>
         </select>
       </div>
       <div className="addproduct-itemfield">
