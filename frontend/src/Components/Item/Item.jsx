@@ -1,35 +1,16 @@
-import React, {useEffect, useState} from "react";
-import {Link} from 'react-router-dom';
+import React from "react";
 import "./Item.css";
 
 const Item = (props) => {
-  useEffect( ()=> {
-    fetchItems();
-  }, []);
-
-  const [items, setItems] = useState([]);
-
-  const fetchItems = async() => {
-    const data = await fetch('/produce');
-    const items = await data.json();
-    setItems(items);
-  }
-
   return (
-    <section>
-    {
-      items.map(item => (
-        <div className="item">
-        <img src={item.image} alt="" />
-        <p>{item.name}</p>
-        <div className="item-prices">
-          <div className="item-price-new">${item.message}</div>
-          <div className="item-price-new">${item.price}</div>
-        </div>
+    <div className="item">
+      <img src={props.image} alt="" />
+      <p>{props.name}</p>
+      <div className="item-prices">
+        <div className="item-price-new">${props.new_price}</div>
+        <div className="item-price-old">${props.old_price}</div>
       </div>
-      ))
-    }
-    </section>
+    </div>
   );
 };
 
