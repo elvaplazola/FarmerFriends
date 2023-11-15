@@ -24,7 +24,7 @@ export const SearchBar = ({ setResults }) => {
   };
 
   return (
-    <div className="input-wrapper">
+    <div class="container" className="input-wrapper" id="input-wrapper">
       <FaSearch id="search-icon" />
       <input
         placeholder="Type to search..."

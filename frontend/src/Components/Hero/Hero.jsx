@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <div className="mantra">
+        <div class="container" className="mantra">
           <SearchBar />
           <p>
             A hub for farmers to trade and advertise their farm-fresh goods with

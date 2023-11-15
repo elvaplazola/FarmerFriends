@@ -17,7 +17,7 @@ const Navbar = () => {
         <img src={logo} alt="farmer friends logo" />
         {/*<p>Farmer</p> */}
       </div>
-      <ul className="nav-menu">
+      <ul className="nav-menu" id="nav-menu">
         <li
           onClick={() => {
             setMenu("shop");

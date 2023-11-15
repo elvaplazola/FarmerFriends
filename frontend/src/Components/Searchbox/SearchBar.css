@@ -28,3 +28,10 @@ input:focus {
 #search-icon {
   color: royalblue;
 }
+
+@media screen and (max-width: 768px) {
+.input-wrapper {
+  width: 80%;
+}
+}
+
