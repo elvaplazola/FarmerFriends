@@ -1,6 +1,14 @@
 const express = require('express');
 const router = express.Router();
 
+router.post('/', async (req, res) => {
+    if 
+})
+
+router.get('/', async (req, res) => {
+    const 
+})
+
 router.get('/produce', (req, res) => {
     const str = [{
         "name": "apples",
