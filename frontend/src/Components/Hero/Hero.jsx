@@ -15,9 +15,14 @@ const Hero = () => {
         <div className="mantra">
           <SearchBar data={data} />
           <p>
-            A hub for farmers to trade and advertise their farm-fresh goods with
-            other farms. Seasonal fruits and veggies. Get in touch with your
-            farming community!
+            Farmer Friend: Your One-Stop Shop for Premium Farm Supplies,
+            Livestock and Equipment.
+          </p>
+          <p>
+            Explore our vast selection, backed by a commitment to quality and
+            customer satisfaction. <br />
+            Your thriving farm begins here at Farmer Friend – where agriculture
+            meets excellence.
           </p>
         </div>
         <h2>New Items for Trade!</h2>
