@@ -1,6 +1,7 @@
 const port = 8000;
 const express = require("express");
 const app = express();
+require("dotenv").config();
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
@@ -10,10 +11,10 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
+const mongoURI = process.env.MONGO_URI;
+
 //mongoDb
-mongoose.connect(
-  "mongodb+srv://dyamez:VRLDCepNOSJJCmBy@cluster0.jog0s17.mongodb.net/farmfriends"
-);
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const index = express();
 
