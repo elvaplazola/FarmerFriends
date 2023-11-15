@@ -1,6 +1,9 @@
 const express = require('express');
 const produceController = require ('./controllers/produce_controller');
 
+//Import produce controller
+const produceController = require('./controllers/produce_controller')
+
 const app = express();
 app.use('/', produceController);
 
