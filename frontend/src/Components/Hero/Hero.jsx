@@ -21,10 +21,10 @@ const Hero = () => {
         </div>
         <h2>New Items for Trade!</h2>
         <div>
-          <div className="hand-hand-icon">
+          <div className="hand-hand-icon" id="hand-hand-icon">
             <p>
               Fresh!
-              <img src={basket} alt="" />
+              <img src={basket} alt="basket" id="basket" />
             </p>
           </div>
           <p>Trading Inventory</p>

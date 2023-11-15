@@ -27,7 +27,7 @@
   color: yellow;
   font-size: 4vw;.breadcrumbs {
   display: flex;
-  gap: 9px;
+  gap: 1vw;
   align-items: center;
   color: rgb(90, 8, 18);
   font-weight: 650;

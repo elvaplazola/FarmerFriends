@@ -1,8 +1,8 @@
 .offers {
   height: 61vh;
-  width: 66%;
+  width: 60%;
   margin: auto;
-  padding: 0px 139px;
+  padding: 0px 20px;
   display: flex;
   background: linear-gradient(
     180deg,
@@ -21,7 +21,7 @@
 
 .offers-left h1 {
   color: darkblue;
-  font-size: 75px;
+  font-size: 5vw;
   font-weight: 600;
 }
 
@@ -32,22 +32,23 @@
 }
 
 .offers-left button {
-  width: 285px;
-  height: 71px;
+  width: 70%;
+  max-width: 285px;
+  height: 8vw;
   border-radius: 36px;
   background: rgb(237, 40, 40);
   border: none;
   cursor: pointer;
   color: white;
-  font-size: 23px;
+  font-size: 2vw;
   font-weight: 550;
-  margin-top: 35px;
+  margin-top: 2vw;
 }
 
 .offers-right {
   flex: 1;
   display: flex;
   align-items: center;
-  padding-top: 50px;
-  justify-content: 50px;
+  padding-top: 20px;
+  justify-content: center;
 }
