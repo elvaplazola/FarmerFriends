@@ -34,3 +34,25 @@ a:any-link {
   text-align: center;
   gap: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .popular {
+    padding: 10px; 
+  }
+
+  .popular h1 {
+    font-size: 6vw; 
+  }
+
+  .popular hr {
+    width: 80%;
+  }
+
+  .popular-item {
+    flex-direction: row; 
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+
