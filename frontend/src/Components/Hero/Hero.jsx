@@ -25,7 +25,7 @@ const Hero = () => {
             meets excellence.
           </p>
         </div>
-        <h2>New Items for Trade!</h2>
+        <h2>New Items in Stock!</h2>
         <div>
           <div className="hand-hand-icon">
             <p>
