@@ -16,7 +16,7 @@ const Hero = () => {
           <SearchBar data={data} />
           <p>
             Farmer Friend: Your One-Stop Shop for Premium Farm Supplies,
-            Livestock and Equipment.
+            Livestock and Produce.
           </p>
           <p>
             Explore our vast selection, backed by a commitment to quality and
