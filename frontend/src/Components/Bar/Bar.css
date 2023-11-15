@@ -1,0 +1,21 @@
+.bar {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 360px;
+  height: 100vh;
+  background: white;
+  align-items: center;
+  padding-top: 40px;
+}
+.bar-item {
+  display: flex;
+  background: #f6f6f6;
+  width: 300px;
+  height: 68px;
+  gap: 21px;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 40px;
+  border-radius: 9px;
+}

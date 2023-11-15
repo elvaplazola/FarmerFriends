@@ -40,6 +40,10 @@ React references: https://scrimba.com/allcourses?topic=react
 
 Authentication in React: codingdeft.com - https://www.codingdeft.com/posts/react-authentication-mern-node-passport-express-mongo/
 
+Deploy Node Expressjs MongoDB on Render: NHN TV - https://www.youtube.com/watch?v=vkCgvEVTIgw&t=268s
+
+Multer implementation: logrocket.com - https://blog.logrocket.com/multer-nodejs-express-upload-file/
+
 Coding With Muhib: https://www.youtube.com/@CodingWithMuhib
 
 Website Setup: Codr Kai - https://www.youtube.com/watch?v=3isCTSUdXaQ

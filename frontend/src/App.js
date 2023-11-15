@@ -12,6 +12,9 @@ import livestock_banner from "./Components/Assets/livestock_banner.png";
 import produce_banner from "./Components/Assets/produce_banner.jpg";
 import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
+import Admin from "./Pages/Admin";
+import ListProduct from "./Components/ListProduct/ListProduct";
+import AddProduct from "./Components/AddProduct/AddProduct";
 
 function App() {
   return (
@@ -45,6 +48,10 @@ function App() {
           <Route path="/cart" element={<Cart />} />
 
           <Route path="/login" element={<LoginSignup />} />
+          <Route path="/admin" element={<Admin />} />
+
+          <Route path="/addproduct" element={<AddProduct />} />
+          <Route path="/listproduct" element={<ListProduct />} />
         </Routes>
         <Footer />
       </BrowserRouter>
