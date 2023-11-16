@@ -24,12 +24,20 @@ export const SearchBar = ({ setResults }) => {
   };
 
   return (
-    <div className="input-wrapper" id="input-wrapper">
+    <div className="input-wrapper">
       <FaSearch id="search-icon" />
+<<<<<<< Updated upstream
       <input id="search-text"
         placeholder="Type to search..."
         value={input}
         onChange={(e) => handleChange(e.target.value)}
+=======
+      <input
+        type="text"
+        placeholder="Search by name on farmer friend..."
+        value={searchTerm}
+        onChange={handleChange}
+>>>>>>> Stashed changes
       />
     </div>
   );
