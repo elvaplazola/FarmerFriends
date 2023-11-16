@@ -17,7 +17,7 @@ const ShopCategory = (props) => {
           Sort by <img src={drop} alt="" />
         </div>
       </div>
-      <div className="shopcategory-products">
+      <div class="container" className="shopcategory-products">
         {all_product.map((item, i) => {
           if (props.category === item.category) {
             return (

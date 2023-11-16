@@ -1,6 +1,7 @@
 .shopcategory-banner {
   display: block;
-  width: 82%;
+  width: 100%;
+height: auto;
   margin: 31px auto;
 }
 
@@ -23,6 +24,7 @@
 
 .shopcategory-products {
   row-gap: 81px;
+  gap: 3vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 21px 171px;
@@ -30,8 +32,8 @@
 
 .shopcategory-loadmore {
   border-radius: 71px;
-  width: 234px;
-  height: 70px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,4 +42,55 @@
   background: gainsboro;
   color: red;
   font-weight: 550;
+}
+@media screen and (max-width: 768px) {
+  .shopcategory-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 31px auto;
+  }
+  
+  .shopcategory-indexSort {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 20px;
+  }
+  
+  .shopcategory-sort {
+    border-radius: 45px;
+    padding: 11px 21px;
+    border: 1px solid forestgreen;
+  }
+  
+  .shopcategory-indexSort p span {
+    font-weight: 650;
+  }
+  
+  .shopcategory-products {
+    row-gap: 20px;
+    display: column;
+    grid-template-columns: 1fr;
+    margin: 21px 20px;
+  }
+  .shopcategory-products img{
+    max-width: 100%;
+    height: auto;
+    padding: 6vw;
+  }
+  .shopcategory-loadmore {
+    border-radius: 35px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 18px;
+    background: gainsboro;
+    color: red;
+    font-weight: 550;
+  }
+
 }

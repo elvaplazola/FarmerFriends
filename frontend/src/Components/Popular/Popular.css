@@ -32,7 +32,8 @@ a:any-link {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  gap: 15px;
+  gap: 3vw;
+  padding: 3vw;
 }
 
 @media screen and (max-width: 768px) {
