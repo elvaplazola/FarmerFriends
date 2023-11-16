@@ -37,8 +37,8 @@ height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 151px auto;
-  font-size: 29px;
+  margin: 4vw auto;
+  font-size: 2vw;
   background: gainsboro;
   color: red;
   font-weight: 550;
@@ -77,7 +77,7 @@ height: auto;
   .shopcategory-products img{
     max-width: 100%;
     height: auto;
-    padding: 6vw;
+    padding: 8vw;
   }
   .shopcategory-loadmore {
     border-radius: 35px;

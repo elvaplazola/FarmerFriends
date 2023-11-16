@@ -44,8 +44,8 @@ h2 {
   font-size: 2vw;
   font-weight: 550;
   border-radius: 5vw;
-  background: rgb(217, 63, 63);
-  color: lightblue;
+  background: rgb(232, 19, 19);
+  color: rgb(241, 247, 249);
 }
 .mantra {
   padding: 1vw;
@@ -55,10 +55,9 @@ h2 {
 }
 .mantra p {
   font-size: 2vw;
-  color: rgb(211, 14, 14);
+  color: rgb(233, 8, 8);
   text-align: center;
   font-style: italic;
-
 }
 
 .mantra-ext {
@@ -103,15 +102,25 @@ border-color: black;
 }
 .hand-hand-icon {
   display: inline-flex;
-  justify-content: flex-end;
-  margin-top: 3vw;
-  margin-left: 3vw;
+  padding:2vw;
 }
 .hand-hand-icon img {
-  width: 50%;
+  width: 45%;
   padding: 1vw;
 }
-
+.hand-hand-icon p{
+  font-size: 4vw;
+  margin-left: 2vw;
+}
+h2 {
+  color: rgb(185, 8, 8);
+  font-size: 5vw;
+  font-weight: 500;
+  font-style: italic;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+}
 @media screen and (max-width: 768px) {
   .hero {
   height: 100%;
@@ -183,11 +192,10 @@ border-color: black;
 }
 .mantra p {
   margin-bottom: auto;
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: 600;
-  color: rgb(211, 14, 14);
+  color: rgb(233, 8, 8);
 }
-
 .mantra-ext p {
 justify-content: center;
 align-content: center;
@@ -212,7 +220,7 @@ border-color: black;
 .hand-hand-icon p{
   display: row;
   justify-content: center;
-  font-size: 10vw;
+  font-size: 6vw;
   padding:2vw;
   margin-left: 3vw;
 }
