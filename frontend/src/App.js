@@ -1,5 +1,5 @@
 import "./App.css";
-import {useState, useEffect} from 'react'
+//import {useState, useEffect} from 'react'
 //import Axios from 'axios'
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,17 +12,16 @@ import livestock_banner from "./Components/Assets/livestock_banner.png";
 import produce_banner from "./Components/Assets/produce_banner.jpg";
 import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
-
-//import { useState } from "react";
-//import { SearchBar } from "./Components/SearchBar/SearchBar";
-//import { SearchResultsList } from "./Components/SearchBar/SearchResultsList";
+import Admin from "./Pages/Admin";
+import ListProduct from "./Components/ListProduct/ListProduct";
+import AddProduct from "./Components/AddProduct/AddProduct";
 
 function App() {
-
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route
@@ -47,19 +46,15 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart" element={<Cart />} />
+
           <Route path="/login" element={<LoginSignup />} />
+          <Route path="/admin" element={<Admin />} />
+
+          <Route path="/addproduct" element={<AddProduct />} />
+          <Route path="/listproduct" element={<ListProduct />} />
         </Routes>
         <Footer />
       </BrowserRouter>
-      {/*
-      <div className="searchbar">
-        <div className="search-bar-container">
-          <SearchBar setResults={setResults} />
-          {results && results.length > 0 && (
-            <SearchResultsList results={results} />
-          )}
-          </div> 
-      </div> */}
     </div>
   );
 }

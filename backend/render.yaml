@@ -1,0 +1,9 @@
+services:
+  - name: express-server
+    type: web
+    buildCommand: npm install
+    startCommand: npm start
+    env:
+      NODE_ENV: production
+      MONGODB_URI: mongodb+srv://dyamez:VRLDCepNOSJJCmBy@cluster0.jog0s17.mongodb.net/farmfriends
+      PORT: 8000 # Adjust the port as needed

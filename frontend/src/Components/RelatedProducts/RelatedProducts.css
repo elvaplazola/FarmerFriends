@@ -1,4 +1,4 @@
-.relatedproducts {
+.relatedProducts {
   height: 91vh;
   gap: 11px;
   display: flex;
@@ -6,19 +6,19 @@
   align-items: center;
 }
 
-.relatedproducts h1 {
+.relatedProducts h1 {
   font-weight: 650;
   font-size: 51px;
   color: black;
 }
 
-.relatedproducts-item {
+.relatedProducts-item {
   gap: 31px;
   display: flex;
   margin-top: 53px;
 }
 
-.relatedproducts hr {
+.relatedProducts hr {
   background: gray;
   width: 210px;
   height: 7px;

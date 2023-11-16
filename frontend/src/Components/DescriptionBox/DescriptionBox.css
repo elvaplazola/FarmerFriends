@@ -1,12 +1,12 @@
-.descriptionbox {
+.descriptionBox {
   margin: 120px 170px;
 }
 
-.descriptionbox-navigator {
+.descriptionBox-navigator {
   display: flex;
 }
 
-.descriptionbox-nav-box {
+.descriptionBox-nav-box {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   border: 1px solid red;
 }
 
-.descriptionbox-nav-box-fade {
+.descriptionBox-nav-box-fade {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   background: rgb(156, 167, 178);
 }
 
-.descriptionbox-description {
+.descriptionBox-description {
   display: flex;
   gap: 26px;
   border: 1px solid red;
