@@ -37,21 +37,41 @@ a:any-link {
 
 @media screen and (max-width: 768px) {
   .popular {
-    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    height: auto;
+    padding: 4vw;
   }
-
+  
   .popular h1 {
-    font-size: 6vw; 
-  }
+    color: rgb(141, 15, 15) 8, 130, 130;
+    font-weight: 650;
+    font-size: 8vw;
+    text-align:center;
 
+  }
+  
+  a:any-link {
+    color: red;
+  }
+  
   .popular hr {
-    width: 80%;
+    width: 50%;
+    height: 220px;
+    height: 5px;
+    border-radius: 12px;
+    background: darkred;
   }
-
+  
   .popular-item {
-    flex-direction: row; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 15px;
   }
 }
 

@@ -18,20 +18,20 @@
   max-width: 40%;
   margin-left: 1.6vw;
 }
+
+
 .hero-left p {
   color: rgb(24, 5, 5);
   font-size: 3vw;
   font-weight: 600;
-  font-style: italic;
 }
 
 h2 {
   color: rgb(185, 8, 8);
-  font-size: 2.5vw;
+  font-size: 4vw;
   font-weight: 600;
   font-style: italic;
   justify-content: center;
-  margin-left: 3vw;
 }
 
 .hero-latest-btn {
@@ -54,9 +54,11 @@ h2 {
   font-weight: 700;
 }
 .mantra p {
-  font-size: 1.8vw;
+  font-size: 2vw;
   color: rgb(211, 14, 14);
   text-align: center;
+  font-style: italic;
+
 }
 
 .mantra-ext {
@@ -67,7 +69,7 @@ h2 {
 }
 
 .mantra-ext p {
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 .hero-right {
   flex: 1;
@@ -103,14 +105,13 @@ border-color: black;
   display: inline-flex;
   justify-content: flex-end;
   margin-top: 3vw;
+  margin-left: 3vw;
 }
 .hand-hand-icon img {
   width: 50%;
-  padding: 2vw;
+  padding: 1vw;
 }
-.hand-hand-icon p{
-  padding: 2.5vw;
-}
+
 @media screen and (max-width: 768px) {
   .hero {
   height: 100%;
@@ -151,7 +152,7 @@ border-color: black;
   gap: 2vw;
   width: 100%;
   height: 10vw;
-  font-size: 2vw;
+  font-size: 5vw;
   font-weight: 550;
   margin-top: 3vw;
   border-radius: 5vw;
@@ -182,7 +183,8 @@ border-color: black;
 }
 .mantra p {
   margin-bottom: auto;
-  font-size: 5vw;
+  font-size: 7vw;
+  font-weight: 600;
   color: rgb(211, 14, 14);
 }
 
@@ -210,18 +212,18 @@ border-color: black;
 .hand-hand-icon p{
   display: row;
   justify-content: center;
-  font-size: 6vw;
+  font-size: 10vw;
   padding:2vw;
   margin-left: 3vw;
 }
 
 h2 {
   color: rgb(185, 8, 8);
-  font-size: 6vw;
+  font-size: 8vw;
   font-weight: 600;
   font-style: italic;
   justify-content: center;
-  margin-left: 10vw;
+  margin-left: 3vw;
   margin-bottom: 3vw;
 }
 #basket {
