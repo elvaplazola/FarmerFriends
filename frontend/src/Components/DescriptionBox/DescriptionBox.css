@@ -38,3 +38,53 @@
   padding-bottom: 71px;
   flex-direction: column;
 }
+
+
+@media screen and (max-width: 768px) {
+  .descriptionBox {
+    margin: 10vw 5%;
+  }
+  
+  .descriptionBox-navigator {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .descriptionBox-nav-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 650;
+    font-size: 4vw;
+    height: 14vw;
+    width: 90%;
+    border: 1px solid red;
+    margin-bottom: 2vw;
+  }
+  
+  .descriptionBox-nav-box-fade {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 650;
+    font-size: 4vw;
+    height: 14vw;
+    width: 90%;
+    border: 1px solid red;
+    color: black;
+    background: rgb(156, 167, 178);
+    margin-bottom: 2vw;
+  }
+  
+  .descriptionBox-description {
+    display: flex;
+    gap: 26px;
+    border: 1px solid red;
+    padding: 48px;
+    padding-bottom: 71px;
+    flex-direction: column;
+  }
+  
+
+}
