@@ -14,8 +14,8 @@ import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
 
 //import { useState } from "react";
-//import { SearchBar } from "./Components/Searchbox/SearchBar";
-//import { SearchResultsList } from "./Components/Searchbox/SearchResultsList";
+//import { SearchBar } from "./Components/SearchBar/SearchBar";
+//import { SearchResultsList } from "./Components/SearchBar/SearchResultsList";
 
 function App() {
 

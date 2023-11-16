@@ -17,12 +17,7 @@ const Hero = () => {
           </p>    
          </div>
       <div class="container"className="hero-left">
-<<<<<<< Updated upstream
-      <SearchBar/>   
-
-=======
-      <SearchBar/>={data}
->>>>>>> Stashed changes
+      <SearchBar/>=
          <div class="container" className="mantra-ext">
           <p>
             Explore our vast selection, backed by a commitment to quality and
