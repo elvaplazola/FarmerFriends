@@ -9,8 +9,8 @@ import SearchBar from "../Searchbox/SearchBar";
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <div class="container" className="hero-left">
+    <div class="container" className="hero">
+      <div class="container"className="hero-left">
       <SearchBar />
         <div class="container" className="mantra">
           <p>
@@ -19,28 +19,28 @@ const Hero = () => {
             farming community!
           </p>
         </div>
-        <h2 class="container" className="mantra-text">New Items for Trade!</h2>
+        <h2 className="hero-left-text">New Items for Trade!</h2>
         <div>
           <div className="hand-hand-icon" id="hand-hand-icon">
             <p>
               Fresh!
-              <img src={basket} alt="basket" id="basket" />
+              <img class="container" src={basket} alt="basket" id="basket" />
             </p>
           </div>
           <p>Trading Inventory</p>
           <p>for Farmers</p>
-        </div>
-        <div className="hero-latest-btn">
+        <div class="container" className="hero-latest-btn">
           <div>Latest Arrivals</div>
           <img src={arrow} alt="" />
         </div>
       </div>
+      </div>
 
       <div class="container" className="hero-right">
         <img src={cow2} alt="cow" class="img-fluid" id="cow"/>
-      </div>
-    </div>
-  );
+          </div>
+        </div>
+      );
 };
 
 export default Hero;

@@ -16,17 +16,125 @@
   line-height: 1.1;
   max-width: 40%;
 }
+.hero-left p {
+  color: rgb(24, 5, 5);
+  font-size: 3vw;
+  font-weight: 600;
+  font-style: italic;
+}
 
-.mantra-text{
+.hero-left text {
+  color: rgb(24, 5, 5);
+  font-size: 3vw;
+  font-weight: 600;
+  font-style: italic;
+}
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  width: 100%;
+  height: 10vw;
+  font-size: 2vw;
+  font-weight: 550;
+  margin-top: 3vw;
+  border-radius: 5vw;
+  background: rgb(217, 63, 63);
+  color: lightblue;
+}
+.mantra {
+  padding: 1vw;
+  width: 105%;
+  height: 50%;
+  justify-content: center;
+  margin-bottom: 3vw;
+
+}
+.mantra p {
+  margin-bottom: auto;
+  font-size: 2vw;
+  color: rgb(211, 14, 14);
+}
+
+
+
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+  padding:2vw;
+
+}
+
+.hero-right p {
+  font-size: 3vw;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+#cow {
+max-width: 95%;
+align-items: right;
+height:auto;
+border-radius: 5px; 
+margin-top: 3vw;
+margin-left: 2vw;
+border-color: black;
+}
+
+#cow p{
+  font-size: 3vw;
+}
+.container.hero-right{
+  padding: 2%;
+  margin-bottom: 2vw;
+}
+.hand-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+.hand-hand-icon img {
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, pink, rgb(234, 225, 225) 60%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vw;
+  line-height: 1.1;
+  max-width: 40%;
+}
+
+.hero-left-text{
   color: black;
   font-size: 3vw;
-  font-weight: 550;
+  font-weight: 600;
+  padding: 2%;
+  margin-bottom: 2vw;
 }
 
 .hero-left p {
   color: rgb(24, 5, 5);
   font-size: 3vw;
-  font-weight: 720;
+  font-weight: 600;
+  font-style: italic;
 }
 .hero-latest-btn {
   display: flex;
@@ -47,40 +155,54 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: top;
   margin-top: 5vw;
-  margin-left: 5vw;
+  justify-content: left;
 }
 
+.hero-right p {
+  font-size: 3vw;
+  justify-content: right;
+  flex-wrap: wrap;
+}
 .mantra {
-  padding: 2vw;
-  width: 100%;
-  height: 70%;
+  padding: 1vw;
+  width: 105%;
+  height: 50%;
   justify-content: center;
+  margin-bottom: 3vw;
 
 }
 .mantra p {
   margin-bottom: auto;
-  font-size: 2vw;
+  font-size: 3vw;
   color: rgb(211, 14, 14);
-  text-align: left;
 }
 
 
-.hero-right img {
-max-width: 98%;
-align-items: left;
+#cow {
+max-width: 95%;
+align-items: right;
 height:auto;
-border-radius: 5px;
-padding: 2vw;
+border-radius: 5px; 
+margin-top: 3vw;
+margin-left: 2vw;
+border-color: black;
 }
 
+.cow-subtext {
+  width: 50%;
+  margin-left: 30vw;
+}
 .hand-hand-icon {
   display: flex;
   align-items: center;
+  gap: 1.5vw;
+}
+.hand-hand-icon p{
+  display: flex;
+  justify-content: right;
   gap: 2vw;
 }
-
 .hand-hand-icon img {
   width: 40%;
-}
+}}

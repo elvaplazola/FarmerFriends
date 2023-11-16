@@ -1,7 +1,7 @@
 .navbar {
   display:row;
   justify-content: space-evenly;
-  padding: 5%;
+  padding: 2%;
   box-shadow: 0 1px 3px -2px red;
 
 }
@@ -29,7 +29,7 @@
   align-items: center;
   color: rgb(90, 8, 18);
   font-weight: 850;
-  font-size: 2.5vw;
+  font-size: 2.2vw;
   text-transform: capitalize;
   margin: 61px 171px;}
 }
@@ -64,7 +64,7 @@
 
 .nav-login-cart button {
   height: 4vw;
-  width: 5vw;
+  width: 6vw;
   outline: none;
   border: 1px solid lightgray;
   font-weight: 600;
