@@ -1,10 +1,10 @@
 .newsletter {
-  width: 66%;
-  height: 41vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   padding: 0px 141px;
   align-items: center;
-  margin-bottom: 152px;
+  margin-bottom: 5vw;
   background: linear-gradient(180deg, pink, rgb(234, 225, 225) 60%);
   justify-content: center;
   margin: auto;
@@ -14,13 +14,16 @@
 
 .newsletter h1 {
   color: gray;
-  font-size: 56px;
+  font-size: 5vw;
   font-weight: 650;
-}
+width:100%;
+justify-content: center;
+margin-top: 6vw;
+ }
 
 .newsletter p {
   color: gray;
-  font-size: 21px;
+  font-size: 2.5vw;
 }
 
 .newsletter div {
@@ -52,4 +55,62 @@
   color: white;
   font-size: 17px;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+
+
+  .newsletter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 2vw;
+    align-items: center;
+    background: linear-gradient(180deg, pink, rgb(234, 225, 225) 60%);
+    justify-content: center;
+    margin: auto;
+    gap: 31px;
+    flex-direction: column;
+  }
+  
+  .newsletter p {
+    font-size: 6vw;
+    font-style: italic;
+  }
+.newsletter h1 {
+  color: gray;
+  font-size: 8vw;
+  font-weight: 650;
+width:100%;
+justify-content: center;
+}
+
+.newsletter div {
+  display: flex;
+  align-items: center;
+  background: white;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border-radius: 81px;
+  border: 1px solid red;
+}
+
+.newsletter input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: lightgray;
+  font-family: Playpen;
+  font-size: 17px;
+}
+
+.newsletter div button {
+  width: 100%;
+  height: auto;
+  border-radius: 81px;
+  background: red;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
 }

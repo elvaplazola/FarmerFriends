@@ -13,6 +13,10 @@ import produce_banner from "./Components/Assets/produce_banner.jpg";
 import supplies_banner from "./Components/Assets/supplies_banner.jpg";
 import Footer from "./Components/Footer/Footer";
 
+//import { useState } from "react";
+//import { SearchBar } from "./Components/SearchBar/SearchBar";
+//import { SearchResultsList } from "./Components/SearchBar/SearchResultsList";
+
 function App() {
   return (
     <div>

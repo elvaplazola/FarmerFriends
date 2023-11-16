@@ -10,38 +10,41 @@ import data from "../Assets/all_prod.json";
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <div className="hero-left">
-        <div className="mantra">
-          <SearchBar data={data} />
+    <div class="container" className="hero">
+      <div class="container" className="mantra">
+        <p>
+            Farmer Friend: Your One-Stop Shop for Premium Farm Supplies,
+            Livestock and Produce.
+          </p>    
+         </div>
+      <div class="container"className="hero-left">
+      <SearchBar data={data} />
+         <div class="container" className="mantra-ext">
           <p>
-            A hub for farmers to trade and advertise their farm-fresh goods with
-            other farms. Seasonal fruits and veggies. Get in touch with your
-            farming community!
+            Explore our vast selection, backed by a commitment to quality and
+            customer satisfaction. <br />
+            Your thriving farm begins here at Farmer Friend – where agriculture
+            meets excellence.
           </p>
-        </div>
-        <h2>New Items for Trade!</h2>
-        <div>
-          <div className="hand-hand-icon">
-            <p>
-              Fresh!
-              <img src={basket} alt="" />
-            </p>
           </div>
-          <p>Trading Inventory</p>
-          <p>for Farmers</p>
-        </div>
-        <div className="hero-latest-btn">
+        <h2 className="hero-left-text">New Items in Stock!</h2>
+          <div class="container" className="hand-hand-icon" id="hand-hand-icon">
+            <p>
+              Fresh! 
+               </p>
+              <img class="container" src={basket} alt="basket" id="basket" />
+          </div>
+      </div>
+
+      <div class="container" className="hero-right">
+        <img src={cow2} alt="cow" class="img-fluid" id="cow"/>
+          </div>
+          <div class="container" className="hero-latest-btn">
           <div>Latest Arrivals</div>
           <img src={arrow} alt="" />
         </div>
-      </div>
-
-      <div className="hero-right">
-        <img src={cow2} alt="" />
-      </div>
-    </div>
-  );
+        </div>
+      );
 };
 
 export default Hero;

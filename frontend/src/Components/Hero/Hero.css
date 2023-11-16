@@ -1,7 +1,11 @@
 .hero {
-  height: 100vh;
+  flex:1;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(180deg, pink, rgb(234, 225, 225) 60%);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .hero-left {
@@ -9,44 +13,158 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  padding-left: 180px;
+  padding: 1vw;
   line-height: 1.1;
+  max-width: 40%;
+  margin-left: 1.6vw;
 }
 
-.hero-left h2 {
-  color: black;
-  font-size: 27px;
-  font-weight: 650;
-}
 
 .hero-left p {
   color: rgb(24, 5, 5);
-  font-size: 100px;
-  font-weight: 720;
+  font-size: 3vw;
+  font-weight: 600;
 }
 
-.hero-hand-icon {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.hero-hand-icon img {
-  width: 100px;
+h2 {
+  color: rgb(185, 8, 8);
+  font-size: 4vw;
+  font-weight: 600;
+  font-style: italic;
+  justify-content: center;
 }
 
 .hero-latest-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  width: 310px;
-  height: 70px;
-  font-size: 22px;
+  gap: 2vw;
+  width: 100%;
+  height: 10%;
+  font-size: 2vw;
   font-weight: 550;
-  margin-top: 30px;
-  border-radius: 75px;
+  border-radius: 5vw;
+  background: rgb(232, 19, 19);
+  color: rgb(241, 247, 249);
+}
+.mantra {
+  padding: 1vw;
+  width: 100%;
+  justify-content: center;
+  font-weight: 700;
+}
+.mantra p {
+  font-size: 2vw;
+  color: rgb(233, 8, 8);
+  text-align: center;
+  font-style: italic;
+}
+
+.mantra-ext {
+  padding:1vw;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.mantra-ext p {
+  font-size: 2vw;
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding:2vw;
+
+}
+
+.hero-right p {
+  font-size: 3vw;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+#cow {
+max-width: 95%;
+align-items: right;
+height:auto;
+border-radius: 5px; 
+margin-left: 2vw;
+border-color: black;
+}
+
+#cow p{
+  font-size: 3vw;
+}
+.container.hero-right{
+  padding: 1.5%;
+  margin-bottom: 2vw;
+}
+.hand-hand-icon {
+  display: inline-flex;
+  padding:2vw;
+}
+.hand-hand-icon img {
+  width: 45%;
+  padding: 1vw;
+}
+.hand-hand-icon p{
+  font-size: 4vw;
+  margin-left: 2vw;
+}
+h2 {
+  color: rgb(185, 8, 8);
+  font-size: 5vw;
+  font-weight: 500;
+  font-style: italic;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, pink, rgb(234, 225, 225) 60%);
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vw;
+  line-height: 1.1;
+  max-width: 100%;
+}
+
+.hero-left-text h2 {
+  color: rgb(24, 5, 5);
+  font-size: 1vw;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.hero-left p {
+  color: rgb(24, 5, 5);
+  font-size: 4vw;
+  font-weight: 600;
+  font-style: italic;
+}
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  width: 100%;
+  height: 10vw;
+  font-size: 5vw;
+  font-weight: 550;
+  margin-top: 3vw;
+  border-radius: 5vw;
   background: rgb(217, 63, 63);
   color: lightblue;
 }
@@ -54,12 +172,69 @@
 .hero-right {
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  margin-top: 5vw;
+  justify-content: left;
 }
 
+.hero-right p {
+  font-size: 3vw;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+.mantra {
+  padding: 1vw;
+  width: 80;
+  height: 50%;
+  justify-content: center;
+  margin-bottom: 3vw;
+
+}
 .mantra p {
-  margin-bottom: 50px;
-  font-size: 30px;
-  color: red;
+  margin-bottom: auto;
+  font-size: 6vw;
+  font-weight: 600;
+  color: rgb(233, 8, 8);
+}
+.mantra-ext p {
+justify-content: center;
+align-content: center;
+width: 100%;
+};
+
+#cow {
+max-width: 95%;
+align-items: right;
+height:auto;
+border-radius: 5px; 
+margin-top: 3vw;
+margin-left: 2vw;
+border-color: black;
+}
+
+
+.hand-hand-icon {
+  display: flex;
+  align-items: center;
+}
+.hand-hand-icon p{
+  display: row;
+  justify-content: center;
+  font-size: 6vw;
+  padding:2vw;
+  margin-left: 3vw;
+}
+
+h2 {
+  color: rgb(185, 8, 8);
+  font-size: 8vw;
+  font-weight: 600;
+  font-style: italic;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+}
+#basket {
+  width: 50%;
+}
 }

@@ -3,6 +3,7 @@ import "./SearchBar.css";
 import { FaSearch } from "react-icons/fa";
 import Item from "../Item/Item";
 import { Link } from "react-router-dom";
+import data from "../Assets/all_prod.json";
 //import data from "../Assets/all_prod.json";
 
 const SearchBar = ({ data }) => {
@@ -17,10 +18,11 @@ const SearchBar = ({ data }) => {
   );
 
   return (
-    <div className="input-wrapper">
+    <div className="input-wrapper" id="input-wrapper">
       <FaSearch id="search-icon" />
-      <input
-        type="text"
+      <input 
+      id="search-text" 
+      type="text"
         placeholder="Search by name on farmer friend..."
         value={searchTerm}
         onChange={handleChange}
