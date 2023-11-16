@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { React, useState } from "react";
 import "./CSS/LoginSignup.css";
 
 const LoginSignup = () => {
@@ -41,7 +41,7 @@ const LoginSignup = () => {
     await fetch("http://localhost:8000/signup", {
       method: "POST",
       headers: {
-        Accept: "application/json",
+        Accept: "application/form-data",
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
