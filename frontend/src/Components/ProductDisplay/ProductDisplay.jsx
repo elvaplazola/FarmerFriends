@@ -8,15 +8,15 @@ const ProductDisplay = (props) => {
   const { product } = props;
   const { addToCart } = useContext(ShopContext);
   return (
-    <div className="productdisplay">
-      <div className="productdisplay-left">
-        <div className="productdisplay-img">
-          <img className="productdisplay-main-img" src={product.image} alt="" />
+    <div className="productDisplay">
+      <div className="productDisplay-left">
+        <div className="productDisplay-img">
+          <img className="productDisplay-main-img" src={product.image} alt="" />
         </div>
       </div>
-      <div className="productdisplay-right">
+      <div className="productDisplay-right">
         <h1>{product.name}</h1>
-        <div className="productdisplay-right-star">
+        <div className="productDisplay-right-star">
           <img src={star1} alt="" />
           <img src={star1} alt="" />
           <img src={star1} alt="" />
@@ -24,14 +24,14 @@ const ProductDisplay = (props) => {
           <img src={star2} alt="" />
           <p>(10)</p>
         </div>
-        <div className="productdisplay-right-prices">
-          <div className="productdisplay-right-price-old">
+        <div className="productDisplay-right-prices">
+          <div className="productDisplay-right-price-old">
             ${product.old_price}
           </div>
-          <div className="productdisplay-right-price-new">
+          <div className="productDisplay-right-price-new">
             ${product.new_price}
           </div>
-          <div className="productdisplay-right-description">
+          <div className="productDisplay-right-description">
             FarmerFriend@2023
           </div>
         </div>

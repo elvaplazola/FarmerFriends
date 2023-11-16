@@ -18,7 +18,7 @@ const Hero = () => {
           </p>    
          </div>
       <div class="container"className="hero-left">
-      <SearchBar={data}/>   
+      <SearchBar data={data} />
 
          <div class="container" className="mantra-ext">
           <p>

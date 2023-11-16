@@ -5,7 +5,7 @@ import arrow2 from "../Assets/arrow2.png";
 const Breadcrumbs = (props) => {
   const { product } = props;
   return (
-    <div className="breadcrumbs">
+    <div class ="container" className="breadcrumbs">
       HOME <img src={arrow2} alt="" />
       SHOP <img src={arrow2} alt="" />
       {product.category} <img src={arrow2} alt="" />

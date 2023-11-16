@@ -10,10 +10,15 @@
 }
 @media screen and (min-width: 425px) and (max-width:1200px) {
   .root{
-    width:97%;
-    padding: 3%;
+    width:99%;
+    padding: 1%;
     flex-flow:column wrap;
     border: none;
     justify-content: center;
    }
+}
+@media screen and (max-width: 768px) {
+.breadcrumbs {
+  margin-left: 8vw;
+}
 }

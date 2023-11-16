@@ -3,12 +3,12 @@ import "./DescriptionBox.css";
 
 const DescriptionBox = () => {
   return (
-    <div className="descriptionbox">
-      <div className="descriptionbox-navigator">
-        <div className="descriptionbox-nav-box">Features</div>
-        <div className="descriptionbox-nav-box-fade">Reviews(10)</div>
+    <div className="descriptionBox">
+      <div className="descriptionBox-navigator">
+        <div className="descriptionBox-nav-box">Features</div>
+        <div className="descriptionBox-nav-box-fade">Reviews(10)</div>
       </div>
-      <div className="descriptionbox-description">
+      <div className="descriptionBox-description">
         <p>
           A hub for farmers to trade and advertise their farm-fresh goods with
           other farms. Seasonal fruits and veggies. Get in touch with your

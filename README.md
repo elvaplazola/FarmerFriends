@@ -10,13 +10,20 @@ Repository on Github: https://github.com/elvaplazola/FarmerFriends/tree/main
 
 ## Requirements
 
-node.js
+express
+react
+node
 axios
 
 frontend
 cd into frontend
 run 'npm i -y'
 then 'npm start'
+
+backend
+cd into backend
+run 'npm i -y'
+then 'node .\index.js'
 
 ## Configuration
 
@@ -27,6 +34,7 @@ The website has intuitive functionality with includes:
 - Cart automatic price calculation
 - A search function
 - Individual selection of item available and its own dedicated page
+- a page to add product and see the inventory
 
 ## FAQ
 

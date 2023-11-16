@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  gap: 51px;
+  gap: 3vw;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -11,7 +11,7 @@
   gap: 21px;
   display: flex;
   align-items: center;
-  margin-top: 3vw;
+  margin-top: 10vw;
   color: red;
 }
 
@@ -28,7 +28,7 @@
 .footer-links {
   font-size: 3vw;
   color: darkred;
-  gap: 51px;
+  gap: 2vw;
   list-style: none;
   display: flex;
 }
@@ -81,7 +81,8 @@
     gap: 1vw;
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10vw;
+    margin-left: 10vw;
   }
   
   .footer-logo p {
