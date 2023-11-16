@@ -6,6 +6,7 @@ import arrow from "../Assets/arrow.png";
 //import cow from "../Assets/cow.jpg";
 import cow2 from "../Assets/cow3.jpg";
 import SearchBar from "../Searchbox/SearchBar";
+import data from "../Assets/all_prod.json";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           </p>    
          </div>
       <div class="container"className="hero-left">
-      <SearchBar/>   
+      <SearchBar={data}/>   
 
          <div class="container" className="mantra-ext">
           <p>

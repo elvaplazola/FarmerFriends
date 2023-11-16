@@ -12,13 +12,14 @@
   display: flex;
   align-items: center;
   margin-top: 3vw;
+  color: red;
 }
 
 .footer-logo p {
   margin-top: 4vw;
   font-size: 47px;
   font-weight: 750;
-  color: black;
+  color: red;
 }
 
 .footer-logo img{
