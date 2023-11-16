@@ -1,0 +1,11 @@
+{
+  "name": "farmerfriends",
+  "version": "1.0.0",
+  "description": "cd into frontend\r run 'npm i -y'\r then 'npm start'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

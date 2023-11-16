@@ -1,31 +1,39 @@
 .navbar {
-  display: flex;
-  justify-content: space-around;
-  padding: 16px;
+  display:row;
+  justify-content: space-evenly;
+  padding: 2%;
   box-shadow: 0 1px 3px -2px red;
+
 }
 
 .nav_logo {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 3vw;
+  width:50%;
 }
 
 .nav_logo p {
   color: red;
-  font-size: 38px;
-  font-weight: 650;
+  font-size: 2.5vw;
+  font-weight: 850;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 50px;
+  gap: 2vw;
   color: yellow;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 3vw;.breadcrumbs {
+  align-items: center;
+  color: rgb(90, 8, 18);
+  font-weight: 950;
+  font-size: 2.2vw;
+  text-transform: capitalize;
+  margin: 61px 171px;}
 }
+
 
 .nav-menu li {
   display: flex;
@@ -40,14 +48,14 @@
   border: none;
   height: 10px;
   width: 80%;
-  background: rgb(3, 160, 89);
+  background: rgb(3, 124, 70);
   border-radius: 10px;
 }
 
 .nav-login-cart {
   display: flex;
-  align-items: center;
   gap: 45px;
+  justify-content: center;
 }
 
 .nav-login-cart button:active {
@@ -55,17 +63,17 @@
 }
 
 .nav-login-cart button {
-  height: 50px;
-  width: 150px;
+  height: 4vw;
+  width: 6vw;
   outline: none;
   border: 1px solid lightgray;
-  border-radius: 70px;
   font-weight: 600;
   background: lightgray;
   cursor: pointer;
   color: red;
-  font-size: 22px;
+  font-size: 1.5vw;
   font-family: cursive;
+  border-radius:5%;
 }
 
 .nav-cart-count {
@@ -86,3 +94,48 @@
 a:any-link {
   color: red;
 }
+
+.nav-menu.active {
+    display: block;
+  }
+
+ @media screen and (max-width: 768px) {
+    
+    .navbar {
+      flex-direction: column; 
+      align-items: center; 
+      padding: 3%;
+      justify-content: space-evenly;
+      box-shadow: 0 1px 3px -2px red;
+    }
+  
+    .nav_logo {
+      width: 70%; 
+      padding: 1vw;
+      gap: 3vw; 
+    }
+  
+    .nav_logo p {
+      font-size: 4.3vw; 
+    }
+  
+    .nav-menu {
+      font-size: 5vw; 
+      align-content: center;
+      padding:2%;
+      font-weight: 650;
+    }
+  
+    .nav-login-cart button {
+      height: 8vw; 
+      width: 20vw; 
+      font-size: 3.3vw; 
+    }
+  
+    .nav-cart-count {
+      font-size: 2vw; 
+      margin-top: -15px; 
+      margin-left: -60px; 
+    }
+  }
+

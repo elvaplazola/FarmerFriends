@@ -17,10 +17,9 @@ const SearchBar = ({ data }) => {
   );
 
   return (
-    <div className="input-wrapper">
+    <div className="input-wrapper" id="input-wrapper">
       <FaSearch id="search-icon" />
-      <input
-        type="text"
+      <input id="search-text" type="text">
         placeholder="Search by name on farmer friend..."
         value={searchTerm}
         onChange={handleChange}

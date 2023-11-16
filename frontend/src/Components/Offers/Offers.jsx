@@ -4,8 +4,8 @@ import exclusive from "../Assets/exclusive.jpg";
 
 const Offers = () => {
   return (
-    <div className="offers">
-      <div className="offers-left">
+    <div className="offers" id="offers">
+      <div className="offers-left" id="offers-left">
         <h1>Featured</h1>
         <h1>Farmer supplies in stock</h1>
         <p>While inventory lasts</p>

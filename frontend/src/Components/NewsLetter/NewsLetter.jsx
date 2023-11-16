@@ -3,11 +3,11 @@ import "./NewsLetter.css";
 
 const NewsLetter = () => {
   return (
-    <div className="newsletter">
-      <h1>Subscribe for the latest on Farmer Friend</h1>
+    <div class="container" className="newsletter">
+      <h1>Subscribe for the latest on Farmer Friends</h1>
       <p>Stay informed!</p>
       <div>
-        <input type="email" placeholder="Your Email" />
+        <input class="container" type="email" placeholder="Your Email" />
         <button>Subscribe</button>
       </div>
     </div>
