@@ -120,9 +120,10 @@ a:any-link {
     }
   
     .nav-menu {
-      font-size: 3vw; 
+      font-size: 4vw; 
       align-content: center;
-      padding:6%;
+      padding:2%;
+      font-weight: 550;
     }
   
     .nav-login-cart button {

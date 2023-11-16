@@ -10,16 +10,16 @@ import SearchBar from "../Searchbox/SearchBar";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero-left">
+      <div class="container" className="hero-left">
+      <SearchBar />
         <div class="container" className="mantra">
-          <SearchBar />
           <p>
             A hub for farmers to trade and advertise their farm-fresh goods with
             other farms. Seasonal fruits and veggies. Get in touch with your
             farming community!
           </p>
         </div>
-        <h2>New Items for Trade!</h2>
+        <h2 class="container" className="mantra-text">New Items for Trade!</h2>
         <div>
           <div className="hand-hand-icon" id="hand-hand-icon">
             <p>
@@ -36,8 +36,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hero-right">
-        <img src={cow2} alt="" class="img-fluid" />
+      <div class="container" className="hero-right">
+        <img src={cow2} alt="cow" class="img-fluid" id="cow"/>
       </div>
     </div>
   );

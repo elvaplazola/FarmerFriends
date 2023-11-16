@@ -1,24 +1,26 @@
 .input-wrapper {
-  width: 50%;
-  height: 2.5rem;
+  width: 150%;
+  height: 6%;
   border: none;
   border-radius: 10px;
-  padding: 0 15px;
+  padding: 2%;
   box-shadow: 0px 0px 8px #ddd;
   background-color: white;
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
-  margin-left: 100px;
+  margin-bottom: 2vw;
+  margin-left: auto;
 }
 
 input {
   background-color: transparent;
   border: none;
   height: 100%;
-  font-size: 1.25rem;
   width: 100%;
-  margin-left: 5px;
+  margin-left: 2vw;
+}
+.search-text {
+  font-size: 10vw;
 }
 
 input:focus {
@@ -30,8 +32,31 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+
 .input-wrapper {
-  width: 80%;
+  width: 200%;
+  height: 6%;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 0px 0px 8px #ddd;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+  margin-left: auto;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  margin-left: 2vw;
+}
+.search-text {
+  font-size: 10vw;
 }
 }
+
 
